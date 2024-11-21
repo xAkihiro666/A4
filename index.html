@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>DService</title>
+</head>
+<body>
+    <div id="nav-container">
+        <nav>
+            <a href="#home" class="logo">
+                <img src="/images/discord.png" alt="Logo 101">
+                <h1>DService</h1>
+            </a>
+            <div class="menu">    
+                <a href="#home">Home</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#faq">FAQ</a>
+                <div class="socials">
+                    <a href="#" class="dropbtn">Socials</a>
+                    <div class="socials-cont">
+                        <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="crd">
+                <a href="#" id="logMe">Login</a>
+                <a href="#" id="regMe">Register</a>
+            </div>
+        </nav>
+    </div>
+    <div id="content">
+        <div class="log">
+        </div>
+            <div class="login">
+                <form id="logHere">
+                    <h1>Login</h1>
+            
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email" id="email" required>
+            
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password" id="password" required>
+                    <div class="optField">
+                        <span class="checkBox">
+                            <input type="checkbox" id="check">
+                            <label for="check">Remember me</label>
+                        </span>
+                        <a href="#" class="forgot">Forgot password?</a>
+                    </div>
+                    <button href="test.html">Login</button>
+                    <div class="log-register">Not yet registered? <a href="#">Register</a></div>
+                </form>
+            </div>
+            <div class="register">
+                <form id="regHere">
+                    <h1>Register</h1>
+            
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email" id="email" required>
+            
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password" id="new-password" required>
+                    <label for="password">Confirm Password</label>
+                    <input type="password" placeholder="Confirm Password" id="con-password" required>
+                    <button style="background-color: #C1234F">Register</button>
+                    <div class="log-register">Already have an account? <a href="#" id="logMe">Login</a></div>
+                </form>
+            </div>
+        
+        <section class="first-section" id="home">
+            <div class="container">
+                <div class="text-column">
+                    <h1>DService</h1>
+                    <p>The Discord Bot Service That You Deserve</p>
+                    <a href="#" class="button" style="margin: 0px !important;">
+                        <i class="fa-solid fa-book-open-reader"></i>  
+                        <span>Learn More</span>
+                    </a>
+                </div>
+                <div class="image-column">
+                    <img src="/images/PMark.png" alt="Discord Logo" class="discord-image">
+                </div>
+            </div>
+        </section>
+        
+        <section class="second-section">
+            <span class="svgA">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#0e1015" fill-opacity="1" d="M0,256L40,229.3C80,203,160,149,240,160C320,171,400,245,480,256C560,267,640,213,720,197.3C800,181,880,203,960,186.7C1040,171,1120,117,1200,96C1280,75,1360,85,1400,90.7L1440,96L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+                </svg>
+            </span>
+            <div class="second-container" id="pricing">
+                <h2 class="contHead">Plans and Pricing</h2>
+                <div class="aBoxes">
+                    <div class="aBox">
+                        <h3 class="boxTitle">Discord Bot<br>256MB</h3>
+                        <ul class="boxFeatures">
+                            <li class="bfItem">5GB NVMe SSD</li>
+                            <li class="bfItem">Unmetered* Bandwidth</li>
+                            <li class="bfItem">MySQL & PostgreSQL Databases</li>
+                            <li class="bfItem">Global Locations</li>
+                            <li class="bfItem">Instant Setup</li>
+                        </ul>
+                        <div class="aPrice">
+                            <span class="aNum">$ 1.99</span>
+                            <span class="aNum-label">/ per month</span>
+                        </div>
+                        <a href="#" class="ordBtn">Visit</a>
+                    </div>
+                    <div class="aBox">
+                        <h3 class="boxTitle">Discord Bot<br>512MB</h3>
+                        <ul class="boxFeatures">
+                            <li class="bfItem">5GB NVMe SSD</li>
+                            <li class="bfItem">Unmetered* Bandwidth</li>
+                            <li class="bfItem">MySQL & PostgreSQL Databases</li>
+                            <li class="bfItem">Global Locations</li>
+                            <li class="bfItem">Instant Setup</li>
+                        </ul>
+                        <div class="aPrice">
+                            <span class="aNum">$ 3.99</span>
+                            <span class="aNum-label">/ per month</span>
+                        </div>
+                        <a href="#" class="ordBtn">Visit</a>
+                    </div>
+                    <div class="aBox">
+                        <h3 class="boxTitle">Discord Bot<br>1GB</h3>
+                        <ul class="boxFeatures">
+                            <li class="bfItem">10GB NVMe SSD</li>
+                            <li class="bfItem">Unmetered* Bandwidth</li>
+                            <li class="bfItem">MySQL & PostgreSQL Databases</li>
+                            <li class="bfItem">Global Locations</li>
+                            <li class="bfItem">Instant Setup</li>
+                        </ul>
+                        <div class="aPrice">
+                            <span class="aNum">$ 5.99</span>
+                            <span class="aNum-label">/ per month</span>
+                        </div>
+                        <a href="#" class="ordBtn">Visit</a>
+                    </div>
+                    <div class="aBox">
+                        <h3 class="boxTitle">Discord Bot<br>2GB</h3>
+                        <ul class="boxFeatures">
+                            <li class="bfItem">10GB NVMe SSD</li>
+                            <li class="bfItem">Unmetered* Bandwidth</li>
+                            <li class="bfItem">MySQL & PostgreSQL Databases</li>
+                            <li class="bfItem">Global Locations</li>
+                            <li class="bfItem">Instant Setup</li>
+                        </ul>
+                        <div class="aPrice">
+                            <span class="aNum">$ 9.99</span>
+                            <span class="aNum-label">/ per month</span>
+                        </div>
+                        <a href="#" class="ordBtn">Visit</a>
+                    </div>
+                </div>
+                <p>All purchases are processed through our Discord server, so you might as well join it.</p>
+            </div>
+            <span class="svgB">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#0c0e13" fill-opacity="1" d="M0,96L34.3,85.3C68.6,75,137,53,206,80C274.3,107,343,181,411,192C480,203,549,149,617,133.3C685.7,117,754,139,823,138.7C891.4,139,960,117,1029,133.3C1097.1,149,1166,203,1234,208C1302.9,213,1371,171,1406,149.3L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path>
+                </svg>
+            </span>
+        </section>
+        
+        <section class="third-section">
+            <div class="third-container" id="faq">
+                <h2 class="contHead">Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <h3 class="faq-question">What is DService?</h3>
+                        <p class="faq-answer">DService is a premium Discord bot service that provides reliable and feature-rich bots for your Discord server.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">How do I get started?</h3>
+                        <p class="faq-answer">To get started, simply register an account with us and choose a plan that suits your needs. Once you have an account, you can set up your bot through our dashboard.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">What payment methods do you accept?</h3>
+                        <p class="faq-answer">We accept various payment methods including credit cards, PayPal, and other popular payment gateways.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">Can I upgrade my plan later?</h3>
+                        <p class="faq-answer">Yes, you can upgrade or downgrade your plan at any time from your account dashboard. The changes will take effect immediately.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="notification-container">
+        <div id="notification">
+            <div id="plans-image">
+                
+            </div>
+            <div id="notification-content">
+                <div id="user-name">
+
+                </div>
+                <div id="plans-name">
+                    
+                </div>
+                <div id="purchase-time">
+                    <p>Just Now</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
