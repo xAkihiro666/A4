@@ -72,15 +72,14 @@ function checkPassword(event){
 regHere.onsubmit = checkPassword;
 
 function loginSucces(event) {
-    event.preventDefault();  // Prevents the form from submitting the default way (page reload)
+    event.preventDefault();
     
     if(tpass.value != '') {
         swal("Success", "You have successfully logged in.", "success");
         
-        // Redirect after a slight delay to show the success message
         setTimeout(() => {
             window.location.href = "A2/index.html";
-        }, 1500); // Adjust the timeout as needed
+        }, 1500);
     } else {
         swal("Error", "Please enter your password.", "error");
     }
