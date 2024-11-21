@@ -228,7 +228,7 @@ input {
 }
 
 .bg1 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("https://www.ctu.edu.ph/wp-content/uploads/2021/05/193900704_4747561108604440_1498018246974954191_n.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("/images/bg.jpg");
 	display: flex;
 	justify-content: center;
 	align-items: center;
